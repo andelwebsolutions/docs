@@ -23,20 +23,7 @@
   "primaryTab": {
     "name": "Documentatie"
   },
-  "tabs": [
-    {
-      "name": "Aan de slag",
-      "url": "aan-de-slag"
-    },
-    {
-      "name": "Financiën",
-      "url": "financien"
-    },
-    {
-      "name": "Modules",
-      "url": "modules"
-    }
-  ],
+  "tabs": [],
   "anchors": [
 
   ],
