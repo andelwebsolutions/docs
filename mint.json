@@ -40,24 +40,8 @@
       "pages": ["aan-de-slag/introductie", "aan-de-slag/ledenbestand", "aan-de-slag/beginbalans"]
     },
     {
-      "group": "Schuldenlijst",
-      "pages": ["financien/schuldenlijst"]
-    },
-    {
-      "group": "Resultatenrekening",
-      "pages": ["financien/resultatenrekening"]
-    },
-    {
-      "group": "Balans",
-      "pages": ["financien/balans"]
-    },
-    {
-      "group": "Transacties",
-      "pages": ["financien/transacties"]
-    },
-    {
-      "group": "Bankmutaties",
-      "pages": ["financien/bankmutaties"]
+      "group": "Financiën",
+      "pages": ["financien/schuldenlijst", "financien/resultatenrekening", "financien/balans", "financien/transacties", "financien/bankmutaties"]
     },
     {
       "group": "Modules",
