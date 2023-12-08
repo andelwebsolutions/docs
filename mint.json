@@ -7,72 +7,78 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#2563eb",
+    "light": "#eff6ff",
+    "dark": "#2563eb",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
+  "topbarLinks": [],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Neem contact op",
+    "url": "mailto:info@dispuutonline.nl"
+  },
+  "primaryTab": {
+    "name": "Documentatie"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Aan de slag",
+      "url": "aan-de-slag"
+    },
+    {
+      "name": "Financiën",
+      "url": "financien"
+    },
+    {
+      "name": "Modules",
+      "url": "modules"
     }
   ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
+
   ],
+  "search": {
+    "prompt": "Zoeken..."
+  },
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Introductie",
+      "pages": ["introductie/welkom"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Aan de slag",
+      "pages": ["aan-de-slag/introductie", "aan-de-slag/ledenbestand", "aan-de-slag/beginbalans"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Schuldenlijst",
+      "pages": ["financien/schuldenlijst"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Resultatenrekening",
+      "pages": ["financien/resultatenrekening"]
+    },
+    {
+      "group": "Balans",
+      "pages": ["financien/balans"]
+    },
+    {
+      "group": "Transacties",
+      "pages": ["financien/transacties"]
+    },
+    {
+      "group": "Bankmutaties",
+      "pages": ["financien/bankmutaties"]
+    },
+    {
+      "group": "Modules",
+      "pages": ["modules/incasso", "modules/spaarplan", "modules/ledenwebsite", "modules/declaraties"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/dispuutonline",
+    "instagram": "https://instagram.com/dispuutonline"
   }
 }
