@@ -37,7 +37,7 @@
     },
     {
       "group": "Aan de slag",
-      "pages": ["aan-de-slag/introductie", "aan-de-slag/ledenbestand", "aan-de-slag/beginbalans"]
+      "pages": ["aan-de-slag/introductie", "aan-de-slag/stubo-overzetten", "aan-de-slag/ledenbestand", "aan-de-slag/beginbalans"]
     },
     {
       "group": "Financiën",
