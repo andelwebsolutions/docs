@@ -41,7 +41,7 @@
     },
     {
       "group": "Financiën",
-      "pages": ["financien/schuldenlijst", "financien/resultatenrekening", "financien/balans", "financien/transacties", "financien/bankmutaties"]
+      "pages": ["financien/schuldenlijst", "financien/contributies", "financien/resultatenrekening", "financien/balans", "financien/transacties", "financien/bankmutaties"]
     },
     {
       "group": "Modules",
