@@ -22,8 +22,22 @@ Als het afsluiten van het incassocontract en het tekenen van de machtigingen gel
 ## Batch uploaden bij de bank
 Als je een incasso aangemaakt hebt kun je dit bestand downloaden door rechtsboven op ```Download``` te klikken. Vervolgens kun je dit bestand uploaden in je bankomgeving en wordt de incasso automatisch uitgevoerd. Als de incassodatum verstreken is zal het bedrag automatisch op je dispuutsrekening verschijnen.
 
+## Machtigingen
+
+## Instellingen
+
 ## Incasso aanmaken
-<Info>Dit onderdeel moet nog geschreven worden. Kom later terug!</Info>
+Om een nieuwe incasso batch aan te maken kun je in het ```Incasso``` scherm rechtsboven op de ```Nieuw``` knop drukken. Vervolgens krijg je een aantal velden te zien:
+- ```Naam```: de naam van de incasso, vooral bedoelt voor binnen het boekhoudprogramma.
+- ```Beschrijving```: de omschrijving van de incasso. Dit is wat leden te zien krijgen bij het afschrift op hun bankrekening;
+- ```Uitvoerdatum```: de dag waarop je de incasso wilt laten uitvoeren. Dit moet een werkdag en minimaal twee werkdagen in de toekomst zijn. Raadpleeg hiervoor voor de zekerheid de website van je bank.
+- ```Leden```: de leden van wie je wilt incasseren. Voor elk lid komt onderaan de pagina een regel te staan waarin je de volgende velden ziet:
+    - ```Mandaat```: een referentie naar [de machtiging}(/incasso#machtigingen) die het lid heeft ondertekend. Hier wordt automatisch het ingestelde mandaat van het lid ingevuld. Als er eenmaal eens geincasseerd is met dit mandaat mag je het mandaat niet meer aanpassen.
+    - ```Initialen```: De initialen van het lid, gebruikt ter extra identificatie. Hier wordt automatisch de ingestelde initialen van het lid ingevuld.
+    - ```IBAN```: het IBAN dat je voor het lid wilt gebruiken om van te incasseren. Hier wordt automatisch het ingestelde IBAN van het lid ingevuld.
+    - ```Bedrag```: het bedrag dat je wilt incasseren van het lid. Hiervoor kun je automatisch de ingestelde contributie invullen of de openstaande schuld, maar je kunt ook zelf het bedrag aanpassen.
+
+Als je de incasso opslaat kun je hem vervolgens downloaden via ```Acties``` => ```Downloaden```. Dit .xml bestand kun je uploaden bij de bank, waarna het bedrag automatisch op de uitvoerdatum van de incasso op de dispuutsrekening zal verschijnen.
 
 ## Bankmutatie verwerken
 Deze bankmutatie kun je eenvoudig verwerken door op ```Acties``` => ```Koppel incasso``` te drukken. Geef hier de post aan waar je de bedragen op wilt boeken (in de meeste gevallen is dit de ```Ledenschuld```, ```Contributiepost``` of ```Voorzieningspost```) en Dispuutonline maakt automatisch alle regels aan zodat jij hem gelijk kunt verwerken.
