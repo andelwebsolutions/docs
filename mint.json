@@ -33,7 +33,7 @@
   "navigation": [
     {
       "group": "Introductie",
-      "pages": ["introductie/welkom"]
+      "pages": ["introductie/welkom", "introductie/definities"]
     },
     {
       "group": "Aan de slag",
