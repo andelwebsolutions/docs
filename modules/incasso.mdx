@@ -22,9 +22,20 @@ Als het afsluiten van het incassocontract en het tekenen van de machtigingen gel
 ## Batch uploaden bij de bank
 Als je een incasso aangemaakt hebt kun je dit bestand downloaden door rechtsboven op ```Download``` te klikken. Vervolgens kun je dit bestand uploaden in je bankomgeving en wordt de incasso automatisch uitgevoerd. Als de incassodatum verstreken is zal het bedrag automatisch op je dispuutsrekening verschijnen.
 
+## Incassocontract
+Voordat je aan de slag gaat met automatische incasso’s moet je eerst een incassocontract bij je bank aanvragen. Hoe dit precies werkt staat goed uitgelegd op de website van je bank. Aan een incassocontract zitten doorgaans kosten verbonden. Zo betaal je vaak een maandelijks of jaarlijks bedrag en betaal je ook per incasso batch.
+
 ## Machtigingen
+Als je eenmaal ```Incassocontract``` hebt is het ook belangrijk om geldige machtigingen van je leden te hebben. Een geldige machtiging zorgt ervoor dat je bij het lid mag incasseren voor de afgesproken termijn en moet daarom aan een aantal regels voldoen. De meeste banken bieden een standaardformulier aan dat je hier voor aan kunt houden, zoals [deze](https://assets.ing.com/m/fccac2f4e68d6241/original/stoplichtenkaart.pdf).
+
+Op deze machtiging staat ook een ```Kenmerk machtiging```, die moet je vervolgens, net als de machtigingsdatum, het iban en de initialen van het lid invullen op het profiel van het lid in Dispuutonline.
 
 ## Instellingen
+Er zijn een aantal instellingen die je moet invullen voor je aan de slag kunt gaan met de Incassomodule. Dit doe je onder ```Instellingen``` => ```Incasso```. Hieronder vindt je toelichting op alle instellingen:
+- ```Naam```: De naam van het dispuut zoals die op het ```Incassocontract``` vermeld staat.
+- ```ID```: De identificatie van het dispuut. Deze is ook te vinden op het ```Incassocontract```.
+- ```Iban```: Het IBAN van het dispuut waarop de bank het geincasseerde bedrag kan storten.
+- ```Maximale bedrag```: (Optioneel) Het maximale bedrag dat je volgens het incassocontract mag incasseren per lid. Dit wordt gebruikt bij het aanmaken van een incasso, zodat je niet perongeluk meer incasseert dan toegestaan is.
 
 ## Incasso aanmaken
 Om een nieuwe incasso batch aan te maken kun je in het ```Incasso``` scherm rechtsboven op de ```Nieuw``` knop drukken. Vervolgens krijg je een aantal velden te zien:
@@ -32,7 +43,7 @@ Om een nieuwe incasso batch aan te maken kun je in het ```Incasso``` scherm rech
 - ```Beschrijving```: de omschrijving van de incasso. Dit is wat leden te zien krijgen bij het afschrift op hun bankrekening;
 - ```Uitvoerdatum```: de dag waarop je de incasso wilt laten uitvoeren. Dit moet een werkdag en minimaal twee werkdagen in de toekomst zijn. Raadpleeg hiervoor voor de zekerheid de website van je bank.
 - ```Leden```: de leden van wie je wilt incasseren. Voor elk lid komt onderaan de pagina een regel te staan waarin je de volgende velden ziet:
-    - ```Mandaat```: een referentie naar [de machtiging}(/incasso#machtigingen) die het lid heeft ondertekend. Hier wordt automatisch het ingestelde mandaat van het lid ingevuld. Als er eenmaal eens geincasseerd is met dit mandaat mag je het mandaat niet meer aanpassen.
+    - ```Mandaat```: een referentie naar [de machtiging}(/incasso#machtigingen) die het lid heeft ondertekend. Hier wordt automatisch het ingestelde mandaat van het lid ingevuld. Let op: pas dit mandaat niet meer aan nadat je een keer succesvol hebt geïncasseerd van het lid.
     - ```Initialen```: De initialen van het lid, gebruikt ter extra identificatie. Hier wordt automatisch de ingestelde initialen van het lid ingevuld.
     - ```IBAN```: het IBAN dat je voor het lid wilt gebruiken om van te incasseren. Hier wordt automatisch het ingestelde IBAN van het lid ingevuld.
     - ```Bedrag```: het bedrag dat je wilt incasseren van het lid. Hiervoor kun je automatisch de ingestelde contributie invullen of de openstaande schuld, maar je kunt ook zelf het bedrag aanpassen.
