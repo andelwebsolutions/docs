@@ -3,26 +3,26 @@ title: Spaarplannen
 description: 'Lustrum, gala, skireis of iets anders moois in het verschiet? Met de spaarplanmodule laat je leden sparen voor hun spaardoel en maak je dit inzichtelijk op de Ledenwebsite of met de spaarplanmail.'
 ---
 
-De functionaliteit komt grotendeels overeen met die van de [schuldenlijst](/financien/schuldenlijst). Er is echter één fundamenteel verschil; de post die je koppelt aan het spaarplan is in dit geval een ```Voorzieningspost``` (aan de ```Passiva``` zijde van de balans) i.p.v. een ```Debiteurenpost``` (aan de ```Activa``` zijde van de balans).
+De functionaliteit komt grotendeels overeen met die van de [schuldenlijst](/financien/schuldenlijst). Er is echter één fundamenteel verschil; de post die je koppelt aan het spaarplan is in dit geval een ```Voorzieningspost``` (aan de ```Passiva``` zijde van de balans) i.p.v. een ```Debiteurenpost``` (aan de ```Activa``` zijde van de balans). Dit omdat je niet geld tegoed hebt, maar juist geld verschuldigd bent. Namelijk het geld dat je apart houdt voor je leden om later te besteden aan het lustrum, de skireis etc.
 
 ## Spaarplan aanmaken
 
 Een spaarplan aanmaken doe je met de volgende twee stappen:
 <Steps>
   <Step title="Post aanmaken">
-    Maak een voorzieningpost aan, bijvoorbeeld genaamd ```Lustrumvoorziening``` of ```Galavoorziening```. Deze hoort aan de ```Passiva``` zijde, bij voorkeur onder een nieuwe ```Voorzieningen``` categorie.
+    Maak een voorzieningpost aan, bijvoorbeeld genaamd ```Lustrumvoorziening``` of ```Galavoorziening```. Deze hoort aan de ```Passiva``` zijde, bij voorkeur onder een (nieuwe) ```Voorzieningen``` categorie.
   </Step>
   <Step title="Spaarplan aanmaken">
-    Klik op ```Spaarplannen``` => ```Nieuw``` en geef het een logische titel, selecteer de post die je zojuist aangemaakt hebt en selecteer die leden die je wilt laten sparen voor de activiteit. Hier kun je later nog leden van verwijderen/aan toevoegen. Eventueel kun je per lid een spaardoel instellen.
+    Klik op ```Spaarplannen``` => ```Nieuw``` en geef het een logische titel (bijv. ```Lustrum 2023-2024```), selecteer de voorzieningspost die je zojuist aangemaakt hebt en selecteer die leden die je wilt laten sparen voor de activiteit. Hier kun je later nog leden van verwijderen/aan toevoegen. Eventueel kun je per lid een spaardoel instellen.
   </Step>
 </Steps>
 
 Klaar!
 
 ## Leden laten sparen
-Vervolgens kun je op meerdere manieren geld innen voor dit spaarplan. Het simpelst is om je leden zelf geld over te laten maken. In dat geval boek je het bedrag op de ```Voorzieningspost``` post die gekoppeld is aan het spaarplan en selecteer je het lid om wiens spaarplan het gaat.
+Vervolgens kun je op meerdere manieren geld innen voor dit spaarplan. Het simpelst is om je leden zelf geld over te laten maken. In dat geval boek je [bij het verwerken van de bankmutatie](financien/bankmutaties#bankmutaties-verwerken) het bedrag op de ```Voorzieningspost``` post die gekoppeld is aan het spaarplan en selecteer je het lid om wiens spaarplan het gaat.
 
-De andere, vaak betere, optie is om het bedrag elke maand/periode op de ```Ledenschuld``` te boeken. Dit scheelt weer transacties verwerken en bankkosten voor jou als quaestor.
+De andere, vaak betere, optie is om het bedrag elke maand/periode op de ```Ledenschuld``` te boeken. Dit scheelt weer transacties verwerken en bankkosten voor jou als quaestor. Ook hebben je leden alles overzichtelijk op één schuldmail staan.
 
 Die [transactie](/financien/transacties) heeft dan de volgende regels:
 - Één regel per lid die wilt sparen op de ```Voorzieningspost``` met het maandelijkse spaarbedrag.
@@ -31,11 +31,11 @@ Die [transactie](/financien/transacties) heeft dan de volgende regels:
 <Note>Tip: gebruik hiervoor de "Regel aanmaken voor meerdere leden" functie.</Note>
 <Note>Helemaal makkelijk is het als je na de eerste keer de volgende transacties in één druk op de knop kunt aanmaken met de ```Acties``` => ```Dupliceren``` knop!</Note>
 
+## Spaarrekening
+Vaak is het verstandig om het gespaarde geld op een aparte (spaar)rekening te houden. In dat geval heb je twee posten die een bankrekening representeren onder de ```Liquide middelen``` categorie. Één voor de lopende rekening en één voor de lustrumrekening. Het bedrag dat op deze rekening staat zal in principe gelijk moeten staan aan het bedrag dat je op de voorzieningspost aan de passivakant hebt staan.
+
 ## Uitgaven
 Uiteindelijk kun je het geld dat op de voorzieningsposts is opgebouwd gebruiken voor uitgaven van de activiteit. Dit zal niets veranderen aan het gespaarde bedrag van de leden op het overzicht van het spaarplan, maar wel de balans van de ```Voorzieningspost``` omlaag brengen.
-
-## Vrijgevallen voorzieningen
-<Info>Dit onderdeel moet nog geschreven worden. Kom later terug!</Info>
 
 ## Resultaat
 Idealiter komt je post na afloop op nul euro te staan. Nou kan het natuurlijk zijn dat er wat geld overgebleven is, dit kun je bijvoorbeeld afboeken op een ```Overige inkomsten``` post of direct teruggeven aan de leden door het naar hun terug over te maken of op hun schuld te crediteren.
