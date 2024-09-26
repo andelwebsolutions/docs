@@ -46,6 +46,10 @@
     {
       "group": "Modules",
       "pages": ["modules/incasso", "modules/spaarplan", "modules/ledenwebsite", "modules/declaraties"]
+    },
+    {
+      "group": "Overig",
+      "pages": ["overig/overdragen-aan-je-opvolger"]
     }
   ],
   "footerSocials": {
