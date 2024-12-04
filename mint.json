@@ -33,11 +33,22 @@
   "navigation": [
     {
       "group": "Introductie",
-      "pages": ["introductie/welkom", "introductie/definities"]
+      "pages": [
+        "introductie/welkom",
+        {
+          "group": "Introductie",
+          "pages": ["introductie/waarom-een-boekhoudprogramma", "introductie/definities"]
+        }
+      ]
     },
     {
-      "group": "Aan de slag",
-      "pages": ["aan-de-slag/introductie", "aan-de-slag/stubo-overzetten", "aan-de-slag/ledenbestand", "aan-de-slag/beginbalans", "aan-de-slag/resultatenrekening-opstellen"]
+      "group": "Opstarten",
+      "pages": [
+        {
+          "group": "Aan de slag met Dispuutonline",
+          "pages": ["aan-de-slag/de-proefperiode", "aan-de-slag/stubo-overzetten", "aan-de-slag/ledenbestand", "aan-de-slag/beginbalans", "aan-de-slag/resultatenrekening-opstellen"]
+        }
+      ]
     },
     {
       "group": "Financiën",
